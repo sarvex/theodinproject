@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails',              '4.0.2'
+gem 'rails',              '4.2.11.3'
 gem 'simple_form',         '~> 3.0.1'
-gem 'jquery-rails',       '~> 3.1.5'
+gem 'jquery-rails',       '~> 4.6.0'
 gem 'newrelic_rpm',       '~> 3.6.5.130'
 gem 'google-api-client',  '~> 0.6.4'
-gem 'devise',    '~> 3.2.4'          # For managing authentication
+gem 'devise',    '~> 3.5.10'         # For managing authentication
 gem 'figaro',     '~> 0.7.0'                    # Managing environment variables
 gem 'github_api', '~> 0.11.1' # to pull in the curriculum files
 gem 'thin', '~> 1.6.1' # to use the "thin" webserver instead of webrick
@@ -28,7 +28,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'factory_girl_rails', '~> 4.3.0'
+  gem 'factory_girl_rails', '~> 4.9.0'
   gem 'rspec-rails', '~> 2.14.1'
   gem 'database_cleaner', '~> 1.2.0'
   gem 'fakeweb', '~> 1.3.0'
@@ -39,15 +39,15 @@ end
 group :development do
   gem 'pry'
   gem 'better_errors', '~> 1.1.0' # gives much better error messages for debug
-  gem 'quiet_assets', '~> 1.0.2'  # shortens up the server log output
+  gem 'quiet_assets', '~> 1.1.0'  # shortens up the server log output
   gem 'binding_of_caller', '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener', '~> 1.2.0' # shows outgoing emails in your browser instead
 end
 
 # update: rails 4 deprecated use of :assets group in gemfile
-  gem 'sass-rails', '~> 4.0.1'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 4.0.1'
-  gem 'twitter-bootstrap-rails',    '2.2.6'
+  gem 'twitter-bootstrap-rails',    '3.2.0'
   gem 'therubyracer',               '~> 0.11.4'
   gem 'less-rails',                 '~> 2.3.3'
 
