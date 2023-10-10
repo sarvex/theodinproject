@@ -12,7 +12,7 @@ gem 'bootsnap', '~> 1.16', require: false
 gem 'classy-yaml', '~> 0.8'
 gem 'debug', '~> 1.7'
 gem 'devise', '~> 4.9'
-gem 'discard', '~> 1.2'
+gem 'discard', '~> 1.3'
 gem 'discordrb-webhooks', '~> 3.4'
 gem 'dry-initializer', '~> 3.1'
 gem 'flipper', '~> 1.0'
