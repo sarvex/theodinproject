@@ -50,7 +50,7 @@ group :development do
   gem 'lookbook', '~> 2.1.1'
   gem 'rack-mini-profiler'
   gem 'rubocop', '~> 1.59', require: false
-  gem 'rubocop-performance', '~> 1.19', require: false
+  gem 'rubocop-performance', '~> 1.20', require: false
   gem 'rubocop-rails', '~> 2.22', require: false
   gem 'rubocop-rspec', '~> 2.25', require: false
   gem 'web-console', '~> 4.2'
