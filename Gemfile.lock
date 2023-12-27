@@ -51,7 +51,7 @@ GEM
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
     active_material (1.5.2)
-    activeadmin (3.1.0)
+    activeadmin (3.2.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1)
       formtastic_i18n (>= 0.4)
@@ -248,7 +248,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.7.1)
-    irb (1.10.1)
+    irb (1.11.0)
       rdoc
       reline (>= 0.3.8)
     jquery-rails (4.6.0)
@@ -612,7 +612,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_material (~> 1.5)
-  activeadmin (~> 3.1)
+  activeadmin (~> 3.2)
   activeadmin_addons (~> 1.10)
   barnes (~> 0.0)
   bootsnap (~> 1.16)
