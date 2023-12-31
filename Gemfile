@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '7.1.2'
 
-gem 'activeadmin', '~> 3.1'
+gem 'activeadmin', '~> 3.2'
 gem 'activeadmin_addons', '~> 1.10'
 gem 'active_material', '~> 1.5'
 gem 'barnes', '~> 0.0'
