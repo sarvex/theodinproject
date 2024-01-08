@@ -52,7 +52,7 @@ group :development do
   gem 'rubocop', '~> 1.59', require: false
   gem 'rubocop-performance', '~> 1.20', require: false
   gem 'rubocop-rails', '~> 2.22', require: false
-  gem 'rubocop-rspec', '~> 2.25', require: false
+  gem 'rubocop-rspec', '~> 2.26', require: false
   gem 'web-console', '~> 4.2'
 end
 
